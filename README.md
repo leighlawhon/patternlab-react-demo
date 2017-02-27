@@ -3,5 +3,6 @@
 
 ## Install
 ```
+npm install
 npm run create
 ```
