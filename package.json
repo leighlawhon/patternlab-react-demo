@@ -1,6 +1,6 @@
 {
   "name": "patternlab-react-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Demo site using patternlab-react",
   "main": "build/app.js",
   "scripts": {

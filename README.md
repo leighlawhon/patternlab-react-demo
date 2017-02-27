@@ -1,4 +1,7 @@
 # patternlab-react-demo
-> Demo site using patternlab-react
+> Demo site using [patternlab-react](https://github.com/peteyg99/patternlab-react)
 
-## Under development
+## Install
+```
+npm run create
+```
