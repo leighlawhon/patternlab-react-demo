@@ -5,8 +5,7 @@ module.exports = function() {
         skipFiles: [
             '.ds_store',
             '/_',
-            '/layouts',
-            '/data'
+            '/layouts'
         ],
         defaultOrder: [
             'atoms',
