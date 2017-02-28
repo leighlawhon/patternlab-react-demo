@@ -10,7 +10,7 @@
     "sm": "node -e 'require(\"@peteyg/patternlab-react\").generateSourcemap()'",
     "push-basic": "rm -rf public/*; cp -r src-basic/public/* public",
     "push-full": "rm -rf public/*; cp -r src-full/public/* public",
-    "bundle": "rm public/app.js; browserify build/app.js -o public/app.js",
+    "bundle": "browserify build/app.js -o public/app.js",
     "create-basic": "npm run build-basic; npm run sm; npm run push-basic; npm run bundle",
     "create-full": "npm run build-full; npm run sm; npm run push-full; cp -r src-full/app/data build/app; npm run bundle"
   },

@@ -6,5 +6,16 @@
 ## Install
 ```
 npm install
-npm run create
+```
+
+
+## Create boiler-plate site
+```
+npm run create-basic
+```
+
+
+## Create a copy of the Pattern Lab demo theme
+```
+npm run create-full
 ```
