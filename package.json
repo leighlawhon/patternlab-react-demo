@@ -1,6 +1,6 @@
 {
   "name": "patternlab-react-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Demo site using patternlab-react",
   "main": "build/app.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "@peteyg/patternlab-react": "^1.0.0",
+    "@peteyg/patternlab-react": "^1.0.16",
     "babel-cli": "^6.22.2",
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
     "babel-preset-es2015": "^6.22.0",
