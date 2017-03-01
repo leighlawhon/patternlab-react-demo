@@ -1,3 +1,4 @@
 /build
 /node_modules
 patternlab-sm.conf.js
+server.js
