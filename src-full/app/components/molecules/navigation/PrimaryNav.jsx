@@ -1,6 +1,7 @@
 import React from 'react'
 import {PatternLabComponent} from '@peteyg/patternlab-react-component' 
 
+import {getNavLink} from '../../../actions'
 import {data} from '../../../data/data.js'
 
 class PrimaryNav extends PatternLabComponent {
@@ -24,13 +25,7 @@ class PrimaryNav extends PatternLabComponent {
     _getNavLinks() {
         if (!this.props.primaryNav) return 
 
-        return this.props.primaryNav.map((navLink, index) => (
-            <li key={index} className="c-primary-nav__item">
-                <a href={navLink.url} className="c-primary-nav__link">
-                    {navLink.label}
-                </a>
-            </li>
-        ))
+        return this.props.primaryNav.map((navLink, index) => getNavLink(navLink.url, navLink.label, { key: index, className:"c-primary-nav__link" }))
     }
 
     render() {
